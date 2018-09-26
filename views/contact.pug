@@ -1,0 +1,45 @@
+doctype html
+include includes/head.pug
+link(rel='stylesheet' href='../css/contact.css')
+link(rel='stylesheet' href='../css/contact-smallscreen.css')
+script(src='https://www.google.com/recaptcha/api.js')
+.container.layout-box
+  .contact-title Tell me Anything
+  // Success-Failed Messages
+  .container
+    != messages('message', locals)
+  form#contactForm(method='POST' action='contact' novalidate)
+    .row
+      .col
+        .form-group
+          i.fas.fa-user
+          label Name*
+          input#name.form-control(type='text' placeholder='Enter your name' name='name')
+          p.errorMsgs #{nameError}
+      .col
+        .form-group
+          i.fas.fa-envelope
+          label Email address*
+          input#email.form-control(type='email' placeholder='Enter your email' name='email')
+          p.errorMsgs #{emailError} 
+          p.errorMsgs #{emailTypeError}
+    .row.row-subject
+      .col
+        .form-group
+          i.fas.fa-file-alt
+          label Subject
+          input#subject.form-control(type='text' placeholder='Enter the subject of your message' name='subject')
+    .row
+      .col
+        .form-group
+          label Message*
+          textarea#message.form-control(rows='3' name='message')
+          p.errorMsgs #{msgError}
+    .row
+      .col
+        .form-group
+          p Fields with (*) are required
+    .form-group
+      .g-recaptcha(data-sitekey='YOUR_DATA_SITE_KEY')
+    button.btn.btn-primary(type='submit' value='submit') Submit
+  include includes/footer.pug

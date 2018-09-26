@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  background-color: #21242b;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Outline of the outter box */
+.layout-box {
+  width: 700px;
+}
+
+/* Contact title styling */
+.contact-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  color:#72c5d8;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+/* Form styling */
+label, p {
+  color: #c5c5bc;
+  margin-left: 5px;
+}
+input[type="text"], input[type="email"], textarea {
+  background-color : #d1d1d1;
+}
+i {
+  color: #c5c5bc;
+}
+#message {
+  background-color: #d1d1d1;
+}
+.row-subject {
+  width: 350px;
+}
+
+button[type="submit"] {
+  background-color:#72c5d8;
+  color: black;
+  border: none;
+  margin-top: 10px;
+}
+button[type="submit"]:hover {
+  background-color:#80d98e;
+}
+
+.errorMsgs {
+  color: red;
+  font-size: 13px;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 200px;
+  text-align: center;
+  border-top: 1px solid #c5c5bc;
+  color: #c5c5bc;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  opacity: 0.5;
+}
+  footer p {
+    margin-top: 5px;
+  }

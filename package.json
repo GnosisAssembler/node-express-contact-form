@@ -1,0 +1,28 @@
+{
+  "name": "node-express-contact-form",
+  "version": "1.0.0",
+  "description": "A node express contact form using nodemailer and recaptcha verification",
+  "main": "app.js",
+  "scripts": {
+    "test": "snyk test",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Panos Karypiadis",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.3",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "nodemailer": "^4.6.7",
+    "nodemon": "^1.18.3",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "snyk": "^1.89.0"
+  }
+}
