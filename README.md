@@ -22,11 +22,11 @@ npm install
 #### ReCaptcha
 In order to have the reCaptcha "I am not a robot" checkbox in the contact form, you must register a domain at [Google ReCaptcha](https://www.google.com/recaptcha/intro/v3beta.html) and under the __Domain__ label add localhost for testing purposes or your actual domain for production.
 
-!['domain'](domain.png?raw=true)
+!['domain'](samples/domain.png?raw=true)
 
 After that, you need to replace your own __Site key__ and __Secret Key__ in the code files.
 
-!['sitekey'](sitekey.png?raw=true)
+!['sitekey'](samples/sitekey.png?raw=true)
 
 * views/contact.pug , *line 42*
 ```pug
@@ -73,7 +73,7 @@ let mailOptions = {
 
 Opening [`localhost:3000/contact`](localhost:3000/contact) you must see the contact page.
 
-!['contact'](contact.png?raw=true)
+!['contact'](samples/contact.png?raw=true)
 
 ### Contributing
 ---
