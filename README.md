@@ -1,4 +1,7 @@
 # Node-Express-Contact-Form
+
+![status completed](https://img.shields.io/badge/status-completed-blue.svg)
+
 A Node-Express contact form using Nodemailer and ReCaptcha Verification.
 
 ### Prerequisites
