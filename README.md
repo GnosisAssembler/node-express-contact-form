@@ -1,6 +1,6 @@
-# Node-Express-Contact-Form
+# node-express-contact-form
 
-![status completed](https://img.shields.io/badge/status-completed-blue.svg)
+![code sample](https://img.shields.io/badge/code-sample-yellowgreen.svg?style=flat-square)
 
 A Node-Express contact form using Nodemailer and ReCaptcha Verification.
 
@@ -11,12 +11,10 @@ A Node-Express contact form using Nodemailer and ReCaptcha Verification.
 
 ### Getting Started
 
-```
-# Go to your project directory
-cd my-contact-form
-
+```sh
 # Clone the repository
-git clone https://github.com/pankaryp/Node-Express-Contact-Form.git
+git clone https://github.com/pankaryp/node-express-contact-form.git
+cd node-express-contact-form
 
 # Install NPM dependencies
 npm install
