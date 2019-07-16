@@ -2,7 +2,7 @@
 
 ![code sample](https://img.shields.io/badge/code-sample-yellowgreen.svg?style=flat-square)
 
-A Node-Express contact form using Nodemailer and ReCaptcha Verification.
+> A Node-Express contact form using Nodemailer and ReCaptcha Verification.
 
 ### Prerequisites
 
