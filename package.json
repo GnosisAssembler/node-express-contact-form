@@ -17,7 +17,7 @@
     "express-messages": "^1.0.1",
     "express-session": "^1.15.6",
     "express-validator": "^5.3.0",
-    "nodemailer": "^4.6.7",
+    "nodemailer": "^6.4.16",
     "nodemon": "^1.18.3",
     "path": "^0.12.7",
     "pug": "^2.0.3"
